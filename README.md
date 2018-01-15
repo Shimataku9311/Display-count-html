@@ -20,7 +20,7 @@ htmlでwebページを設定し、そこにROS内で動かしているカウン�
 次にifconfigを使用して、inetのアドレスを確認しておきます。  
 
 以下のコマンドを入力することで、プログラムを動作させます。
-停止コマンドはCtrl + Cとなっています。
+停止コマンドはCtrl + Cとなっています。  
 `roslaunch Display-count-html mypkg.launch`  
 
 webページを立ち上げて、アドレス欄に[http://(確認したinetアドレス):8000]と打ち込みます。  
