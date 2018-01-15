@@ -10,3 +10,4 @@ os.chdir(os.path.dirname(__file__))  #scriptsディレクトリが見えるよ�
 rospy.init_node("webserver")         #rosのノード登録
 rospy.on_shutdown(kill)              #kill関数の登録
 SimpleHTTPServer.test()              #サーバ立ち上げ
+

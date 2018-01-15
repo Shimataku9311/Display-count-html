@@ -12,4 +12,3 @@ if __name__ == '__main__':
         	n += 1
 		pub.publish(n)
 		rate.sleep()
-		

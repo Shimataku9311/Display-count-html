@@ -15,3 +15,4 @@ ls.subscribe(function(message) {
         document.getElementById("count").innerHTML = str;
         console.log(str);                                  
 });
+
